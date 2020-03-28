@@ -1,15 +1,19 @@
 # autoirf.py
-Python Script for HPE Comware switches
+Python Script for HPE Comware switches for automatically creating an HPE IRF Cluster during bootup.
 
-The file "inventory.txt" holds the Serial-Numbers, the IRF domain and
-the IRF ID for each of the HPE network devices.
+All HPE network devices have to have a factory default configuration.
+The file "inventory.txt" holds the Serial-Numbers, the IRF domain and the IRF ID for each of the HPE network devices.
 
-The File "autoirf.py" and "inventory.txt" has to be saved in the directory of a
-HTTP Server (or TFTP Server)
-A DHCP Server has to be configured with a DHCP Scope for the new network devices
+The "autoirf.py" file have to be saved in the directory of a <b>HTTP Server</b>. 
+
+The "inventory.txt" and all the devices configurations has to saved on an <b>TFTP Server</b>.
+The Filename of the configurations of the network devices has to be the Serial-Number of each device
+(CN87X93021.cfg, CN87X93022.cfg, etc.).
+
+A <b>DHCP Server</b> has to be configured with a DHCP Scope for the new network devices (attention of the device number)
 and the DHCP option pointing for the bootfile to an HTTP Server.
 
-Example for configuring a Comware 7 device as an DHCP Server:
+Example for configuring a HPE Comware 7 device as an DHCP Server:
 
 #<br>
  dhcp enable<br>
