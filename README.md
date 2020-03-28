@@ -11,7 +11,7 @@ The name of the configuration files of the network devices has to be the Serial-
 of each device (For example: CN87X93021.cfg, CN87X93022.cfg, etc.).
 
 A <b>DHCP Server</b> has to be configured with a DHCP Scope for the new network devices (attention of the device number)
-and the DHCP option pointing for the bootfile to an HTTP Server.
+and the DHCP option pointing for the bootfile to an HTTP Server and the option for the TFTP Server's IP Address.
 
 Example for configuring a HPE Comware 7 device as an DHCP Server:
 
