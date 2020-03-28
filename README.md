@@ -11,8 +11,8 @@ and the DHCP option pointing for the bootfile to an HTTP Server.
 
 Example for configuring a Comware 7 device as an DHCP Server:
 
-#
- dhcp enable
+#<br>
+ dhcp enable<br>
  dhcp server forbidden-ip 192.168.1.253
  dhcp server forbidden-ip 192.168.1.254
 #
