@@ -7,8 +7,8 @@ The file "<b>inventory.txt</b>" holds the <i>Serial-Numbers</i>, the <i>IRF doma
 The "<b>autoirf.py</b>" file has to be saved in the directory of a <b>HTTP Server</b>. 
 
 The "inventory.txt" and all the devices configurations has to saved on an <b>TFTP Server</b>.<br>
-The Filename of the configurations of the network devices has to be the Serial-Number<br>
-of each device (CN87X93021.cfg, CN87X93022.cfg, etc.).
+The name of the configuration files of the network devices has to be the Serial-Number<br>
+of each device (For example: CN87X93021.cfg, CN87X93022.cfg, etc.).
 
 A <b>DHCP Server</b> has to be configured with a DHCP Scope for the new network devices (attention of the device number)
 and the DHCP option pointing for the bootfile to an HTTP Server.
