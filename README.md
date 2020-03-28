@@ -2,7 +2,8 @@
 Python Script for HPE Comware switches for automatically creating an HPE IRF Cluster during bootup.
 
 All HPE network devices have to have a factory default configuration.
-The file "<b>inventory.txt</b>" holds the <i>Serial-Numbers</i>, the <i>IRF domain</i> and the <i>IRF ID</i> for each of the HPE network devices.
+The file "<b>inventory.txt</b>" 
+holds the <i>Serial-Numbers</i>, the <i>IRF domain</i> and the <i>IRF ID</i> for each of the HPE network devices.
 
 The "<b>autoirf.py</b>" file have to be saved in the directory of a <b>HTTP Server</b>. 
 
